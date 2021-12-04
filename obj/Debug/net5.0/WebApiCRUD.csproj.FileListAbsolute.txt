@@ -432,4 +432,3 @@ C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Comp
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Create.cshtml.g.cs
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Edit.cshtml.g.cs
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Delete.cshtml.g.cs
-C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\DeletePost.cshtml.g.cs

@@ -45,7 +45,7 @@ namespace WebApiCRUD.Controllers
         //Get Edit
         public IActionResult Edit(int id)
         {
-            if (id == null || id == 0)
+            if ( id == 0)
             {
                 return NotFound();
             }
@@ -75,10 +75,11 @@ namespace WebApiCRUD.Controllers
 
         }
 
-        //GET - DELETE
-        public IActionResult Delete(int? id)
+
+        //Get Delete
+        public IActionResult Delete(int id)
         {
-            if (id == null || id == 0)
+            if ( id == 0)
             {
                 return NotFound();
             }
@@ -89,24 +90,25 @@ namespace WebApiCRUD.Controllers
             }
 
             return View(obj);
+
+
         }
 
-        //POST - DELETE
+        //Post Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-
-        public IActionResult DeletePost(int? id)
+        public IActionResult Delete(int? id)
         {
             var obj = _db.Company.Find(id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
-            _db.Company.Remove(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
 
+                _db.Company.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+           
+            
 
         }
+
+
     }
 }
