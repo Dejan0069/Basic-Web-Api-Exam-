@@ -430,3 +430,6 @@ C:\Users\User\Desktop\Basic Web API\WebApiCRUD\bin\Debug\net5.0\runtimes\win-arm
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Index.cshtml.g.cs
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Create.cshtml.g.cs
+C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Edit.cshtml.g.cs
+C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\Delete.cshtml.g.cs
+C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Company\DeletePost.cshtml.g.cs
