@@ -27,6 +27,12 @@
                     <th>
                      Contact Name
                     </th>
+                    <th>
+                     Country Id
+                    </th>
+                    <th>
+                     Company Id
+                    </th>
                    
 
                     <th></th>
@@ -38,6 +44,8 @@
                 <tr>
                     <td width="50%">@obj.ContactId</td>
                     <td width="30%">@obj.ContactName</td>
+                    <td width="30%">@obj.CountryId</td>
+                    <td width="30%">@obj.CompanyId</td>
                     <td class="text-center">
                         <div class="w-75 btn-group" role="group">
                             <a asp-controller="Contact" asp-route-Id="@obj.ContactId" asp-action="Edit" class="btn btn-primary mx-2">
