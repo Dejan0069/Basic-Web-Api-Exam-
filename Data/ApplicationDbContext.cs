@@ -11,5 +11,7 @@ namespace WebApiCRUD.Data
         }
 
         public DbSet<Company> Company { get; set; }
+
+        public DbSet<Country> Country { get; set; }
     }
 }
