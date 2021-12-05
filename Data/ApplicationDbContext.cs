@@ -16,5 +16,9 @@ namespace WebApiCRUD.Data
 
         public DbSet<Country> Country { get; set; }
         public IEnumerable<CountryController> CountryController { get; internal set; }
+
+
+        public DbSet<Contact> Contact { get; set; }
+        //public IEnumerable<ContactController> CountryController { get; internal set; }
     }
 }

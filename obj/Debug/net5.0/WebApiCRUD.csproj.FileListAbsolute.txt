@@ -436,3 +436,4 @@ C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Coun
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Country\Create.cshtml.g.cs
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Country\CreateCountry.cshtml.g.cs
 C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Country\Edit.cshtml.g.cs
+C:\Users\User\Desktop\Basic Web API\WebApiCRUD\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs

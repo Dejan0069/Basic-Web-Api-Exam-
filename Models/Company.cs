@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebApiCRUD.Models
 {
@@ -11,6 +12,10 @@ namespace WebApiCRUD.Models
 
         [Required]
         public string CompanyName { get; set;}
+
+        //public ICollection<Contact> ContactId { get; set; }
+
+        public Contact Contact { get; set; }
 
     }
 }
