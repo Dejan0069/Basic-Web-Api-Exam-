@@ -94,7 +94,7 @@ namespace WebApiCRUD.Controllers
 
         }
 
-        //Post Edit
+        //Post delete
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int? id)
@@ -104,9 +104,7 @@ namespace WebApiCRUD.Controllers
                 _db.Company.Remove(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
-           
-            
-
+          
         }
 
 
